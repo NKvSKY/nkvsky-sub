@@ -1,0 +1,690 @@
+# ============================================
+# nkvsky 节点 - 优选IP配置（中文地区名）
+# 节点总数：215
+# ============================================
+
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  fallback:
+    - 8.8.8.8
+    - 1.1.1.1
+
+proxies:
+  - { name: "香港-01", type: vless, server: 38.207.177.204, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-02", type: vless, server: 207.57.123.77, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-03", type: vless, server: 68.64.182.79, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-04", type: vless, server: 111.92.240.90, port: 8443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-05", type: vless, server: 207.57.132.189, port: 8443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-06", type: vless, server: 39.109.50.142, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-07", type: vless, server: 38.207.176.165, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-08", type: vless, server: 149.104.27.213, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-09", type: vless, server: 45.136.14.240, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-10", type: vless, server: 103.139.1.241, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-11", type: vless, server: 45.144.137.77, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-12", type: vless, server: 207.57.122.65, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-13", type: vless, server: 83.229.123.135, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-14", type: vless, server: 207.57.123.112, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-15", type: vless, server: 207.57.124.226, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-16", type: vless, server: 45.152.65.137, port: 8443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-17", type: vless, server: 103.69.128.221, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-18", type: vless, server: 152.175.1.189, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-19", type: vless, server: 18.163.135.197, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "香港-20", type: vless, server: 68.64.183.37, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-01", type: vless, server: 45.89.235.8, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-02", type: vless, server: 172.237.0.160, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-03", type: vless, server: 54.199.129.8, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-04", type: vless, server: 57.182.103.115, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-05", type: vless, server: 35.72.236.171, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-06", type: vless, server: 178.214.214.148, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-07", type: vless, server: 43.165.180.254, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-08", type: vless, server: 16.76.68.65, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-09", type: vless, server: 172.104.120.92, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-10", type: vless, server: 52.194.44.56, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-11", type: vless, server: 35.78.243.103, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-12", type: vless, server: 172.237.6.39, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-13", type: vless, server: 87.76.190.244, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-14", type: vless, server: 64.204.48.68, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-15", type: vless, server: 13.231.38.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-16", type: vless, server: 52.195.211.175, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-17", type: vless, server: 18.180.25.22, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-18", type: vless, server: 13.193.244.81, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-19", type: vless, server: 178.214.214.171, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "日本-20", type: vless, server: 13.112.240.216, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "韩国-01", type: vless, server: 13.125.141.213, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "韩国-02", type: vless, server: 103.218.173.218, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "韩国-03", type: vless, server: 158.247.240.138, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "韩国-04", type: vless, server: 161.118.153.136, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "韩国-05", type: vless, server: 130.162.137.247, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "韩国-06", type: vless, server: 152.70.237.30, port: 8443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "韩国-07", type: vless, server: 193.122.119.241, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "韩国-08", type: vless, server: 132.145.91.135, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "韩国-09", type: vless, server: 158.247.222.168, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-01", type: vless, server: 139.162.26.8, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-02", type: vless, server: 216.195.195.9, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-03", type: vless, server: 172.237.90.144, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-04", type: vless, server: 172.104.57.237, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-05", type: vless, server: 139.162.40.240, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-06", type: vless, server: 172.237.81.42, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-07", type: vless, server: 172.104.60.54, port: 8443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-08", type: vless, server: 172.236.140.241, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-09", type: vless, server: 89.34.227.224, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-10", type: vless, server: 139.162.46.201, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-11", type: vless, server: 109.176.19.176, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-12", type: vless, server: 172.104.60.54, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-13", type: vless, server: 172.104.59.228, port: 8443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-14", type: vless, server: 167.104.100.76, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-15", type: vless, server: 188.253.125.236, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-16", type: vless, server: 139.162.44.222, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-17", type: vless, server: 172.104.185.40, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-18", type: vless, server: 139.162.61.198, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-19", type: vless, server: 172.236.135.14, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "新加坡-20", type: vless, server: 139.162.5.34, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "台湾-01", type: vless, server: 85.237.207.78, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "台湾-02", type: vless, server: 114.34.210.159, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "台湾-03", type: vless, server: 85.237.207.141, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "台湾-04", type: vless, server: 114.32.43.140, port: 2087, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "台湾-05", type: vless, server: 140.235.39.19, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "台湾-06", type: vless, server: 140.235.39.162, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "台湾-07", type: vless, server: 83.147.13.193, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "台湾-08", type: vless, server: 83.147.15.84, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "台湾-09", type: vless, server: 83.147.15.17, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "其他-01", type: vless, server: 91.196.162.6, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "其他-02", type: vless, server: 91.103.140.81, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-01", type: vless, server: 47.57.181.17, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-02", type: vless, server: 46.174.142.238, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-03", type: vless, server: 179.255.136.67, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-04", type: vless, server: 179.255.123.215, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-05", type: vless, server: 179.255.114.17, port: 8443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-06", type: vless, server: 179.255.103.42, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-07", type: vless, server: 179.255.136.11, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-08", type: vless, server: 179.255.136.181, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-09", type: vless, server: 179.255.136.189, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-10", type: vless, server: 179.255.127.82, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-11", type: vless, server: 179.255.115.22, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-12", type: vless, server: 194.36.24.9, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-13", type: vless, server: 179.255.127.45, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-14", type: vless, server: 179.255.123.150, port: 2053, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-15", type: vless, server: 179.253.231.12, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-16", type: vless, server: 179.255.136.75, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-17", type: vless, server: 179.255.127.200, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-18", type: vless, server: 207.57.143.210, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-19", type: vless, server: 179.255.136.147, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "美国-20", type: vless, server: 179.255.127.32, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-01", type: vless, server: 172.64.151.165, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-02", type: vless, server: 104.16.111.117, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-03", type: vless, server: 104.18.46.141, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-04", type: vless, server: 104.16.125.226, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-05", type: vless, server: 104.18.35.30, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-06", type: vless, server: 104.16.183.22, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-07", type: vless, server: 104.18.100.75, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-08", type: vless, server: 172.64.229.58, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-09", type: vless, server: 104.19.194.149, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-10", type: vless, server: 104.16.201.118, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-11", type: vless, server: 104.18.120.93, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-12", type: vless, server: 104.18.39.0, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-13", type: vless, server: 104.16.237.97, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-14", type: vless, server: 104.18.57.0, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-15", type: vless, server: 104.18.38.210, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-16", type: vless, server: 162.159.36.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-17", type: vless, server: 162.159.45.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-18", type: vless, server: 172.67.0.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-19", type: vless, server: 198.41.214.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-20", type: vless, server: 108.162.236.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-21", type: vless, server: 172.64.82.114, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-22", type: vless, server: 198.41.194.162, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-23", type: vless, server: 198.41.208.15, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-24", type: vless, server: 162.159.140.85, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-25", type: vless, server: 172.64.52.127, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-26", type: vless, server: 162.159.61.183, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-27", type: vless, server: 172.64.91.69, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-28", type: vless, server: 172.64.48.226, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-29", type: vless, server: 162.159.24.131, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "电信优选-30", type: vless, server: 173.245.49.194, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-01", type: vless, server: 104.17.143.130, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-02", type: vless, server: 104.17.149.126, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-03", type: vless, server: 104.17.152.103, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-04", type: vless, server: 104.17.156.103, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-05", type: vless, server: 104.17.129.42, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-06", type: vless, server: 104.24.95.193, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-07", type: vless, server: 104.25.60.205, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-08", type: vless, server: 172.67.94.180, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-09", type: vless, server: 172.66.205.185, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-10", type: vless, server: 104.17.138.66, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-11", type: vless, server: 104.27.55.4, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-12", type: vless, server: 104.17.134.88, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-13", type: vless, server: 104.17.140.130, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-14", type: vless, server: 104.24.79.205, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-15", type: vless, server: 172.67.89.103, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-16", type: vless, server: 198.41.216.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-17", type: vless, server: 198.41.222.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-18", type: vless, server: 172.64.79.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-19", type: vless, server: 173.245.58.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-20", type: vless, server: 141.101.90.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-21", type: vless, server: 104.26.4.90, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-22", type: vless, server: 162.159.136.89, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-23", type: vless, server: 162.159.58.65, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-24", type: vless, server: 172.64.229.7, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-25", type: vless, server: 104.26.5.134, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-26", type: vless, server: 162.159.137.204, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-27", type: vless, server: 162.159.128.253, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-28", type: vless, server: 104.26.3.162, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-29", type: vless, server: 104.26.8.117, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "联通优选-30", type: vless, server: 162.159.140.116, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-01", type: vless, server: 104.17.169.110, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-02", type: vless, server: 172.66.134.224, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-03", type: vless, server: 104.18.86.220, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-04", type: vless, server: 104.18.80.85, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-05", type: vless, server: 104.26.0.237, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-06", type: vless, server: 104.17.17.68, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-07", type: vless, server: 172.64.229.42, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-08", type: vless, server: 104.17.104.253, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-09", type: vless, server: 104.17.54.95, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-10", type: vless, server: 104.17.144.104, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-11", type: vless, server: 104.16.146.134, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-12", type: vless, server: 104.16.153.221, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-13", type: vless, server: 104.17.158.81, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-14", type: vless, server: 104.16.253.101, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-15", type: vless, server: 104.17.97.183, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-16", type: vless, server: 104.16.160.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-17", type: vless, server: 104.17.160.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-18", type: vless, server: 104.18.0.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-19", type: vless, server: 104.19.0.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-20", type: vless, server: 172.64.32.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-21", type: vless, server: 104.18.81.19, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-22", type: vless, server: 104.18.89.52, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-23", type: vless, server: 104.18.166.129, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-24", type: vless, server: 198.41.208.224, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-25", type: vless, server: 104.19.148.121, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-26", type: vless, server: 104.17.162.3, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-27", type: vless, server: 104.18.151.172, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-28", type: vless, server: 104.17.139.37, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-29", type: vless, server: 104.19.220.22, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "移动优选-30", type: vless, server: 104.19.154.200, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-01", type: vless, server: 104.19.39.179, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-02", type: vless, server: 104.19.51.202, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-03", type: vless, server: 104.19.38.254, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-04", type: vless, server: 104.19.33.47, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-05", type: vless, server: 162.159.139.149, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-06", type: vless, server: 162.159.138.122, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-07", type: vless, server: 162.159.137.32, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-08", type: vless, server: 104.19.47.147, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-09", type: vless, server: 172.66.134.34, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-10", type: vless, server: 172.66.214.230, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-11", type: vless, server: 172.66.140.7, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-12", type: vless, server: 172.66.208.244, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-13", type: vless, server: 172.64.156.38, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-14", type: vless, server: 104.17.158.225, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-15", type: vless, server: 104.18.42.56, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-16", type: vless, server: 104.18.255.167, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-17", type: vless, server: 104.19.212.207, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-18", type: vless, server: 104.17.69.244, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-19", type: vless, server: 104.31.16.158, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-20", type: vless, server: 104.17.167.134, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-21", type: vless, server: 104.18.223.253, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-22", type: vless, server: 104.16.105.166, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-23", type: vless, server: 104.17.142.212, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-24", type: vless, server: 104.18.189.153, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+  - { name: "三网通用-25", type: vless, server: 104.16.65.1, port: 443, uuid: 1389c23f-c110-43a5-8828-3f0ef623f18e, network: ws, tls: true, udp: true, servername: nkvsky.pages.dev, ws-opts: { path: /, headers: { Host: nkvsky.pages.dev } } }
+
+proxy-groups:
+  - name: "🚀 节点选择"
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 香港-01
+      - 香港-02
+      - 香港-03
+      - 香港-04
+      - 香港-05
+      - 香港-06
+      - 香港-07
+      - 香港-08
+      - 香港-09
+      - 香港-10
+      - 香港-11
+      - 香港-12
+      - 香港-13
+      - 香港-14
+      - 香港-15
+      - 香港-16
+      - 香港-17
+      - 香港-18
+      - 香港-19
+      - 香港-20
+      - 日本-01
+      - 日本-02
+      - 日本-03
+      - 日本-04
+      - 日本-05
+      - 日本-06
+      - 日本-07
+      - 日本-08
+      - 日本-09
+      - 日本-10
+      - 日本-11
+      - 日本-12
+      - 日本-13
+      - 日本-14
+      - 日本-15
+      - 日本-16
+      - 日本-17
+      - 日本-18
+      - 日本-19
+      - 日本-20
+      - 韩国-01
+      - 韩国-02
+      - 韩国-03
+      - 韩国-04
+      - 韩国-05
+      - 韩国-06
+      - 韩国-07
+      - 韩国-08
+      - 韩国-09
+      - 新加坡-01
+      - 新加坡-02
+      - 新加坡-03
+      - 新加坡-04
+      - 新加坡-05
+      - 新加坡-06
+      - 新加坡-07
+      - 新加坡-08
+      - 新加坡-09
+      - 新加坡-10
+      - 新加坡-11
+      - 新加坡-12
+      - 新加坡-13
+      - 新加坡-14
+      - 新加坡-15
+      - 新加坡-16
+      - 新加坡-17
+      - 新加坡-18
+      - 新加坡-19
+      - 新加坡-20
+      - 台湾-01
+      - 台湾-02
+      - 台湾-03
+      - 台湾-04
+      - 台湾-05
+      - 台湾-06
+      - 台湾-07
+      - 台湾-08
+      - 台湾-09
+      - 其他-01
+      - 其他-02
+      - 美国-01
+      - 美国-02
+      - 美国-03
+      - 美国-04
+      - 美国-05
+      - 美国-06
+      - 美国-07
+      - 美国-08
+      - 美国-09
+      - 美国-10
+      - 美国-11
+      - 美国-12
+      - 美国-13
+      - 美国-14
+      - 美国-15
+      - 美国-16
+      - 美国-17
+      - 美国-18
+      - 美国-19
+      - 美国-20
+      - 电信优选-01
+      - 电信优选-02
+      - 电信优选-03
+      - 电信优选-04
+      - 电信优选-05
+      - 电信优选-06
+      - 电信优选-07
+      - 电信优选-08
+      - 电信优选-09
+      - 电信优选-10
+      - 电信优选-11
+      - 电信优选-12
+      - 电信优选-13
+      - 电信优选-14
+      - 电信优选-15
+      - 电信优选-16
+      - 电信优选-17
+      - 电信优选-18
+      - 电信优选-19
+      - 电信优选-20
+      - 电信优选-21
+      - 电信优选-22
+      - 电信优选-23
+      - 电信优选-24
+      - 电信优选-25
+      - 电信优选-26
+      - 电信优选-27
+      - 电信优选-28
+      - 电信优选-29
+      - 电信优选-30
+      - 联通优选-01
+      - 联通优选-02
+      - 联通优选-03
+      - 联通优选-04
+      - 联通优选-05
+      - 联通优选-06
+      - 联通优选-07
+      - 联通优选-08
+      - 联通优选-09
+      - 联通优选-10
+      - 联通优选-11
+      - 联通优选-12
+      - 联通优选-13
+      - 联通优选-14
+      - 联通优选-15
+      - 联通优选-16
+      - 联通优选-17
+      - 联通优选-18
+      - 联通优选-19
+      - 联通优选-20
+      - 联通优选-21
+      - 联通优选-22
+      - 联通优选-23
+      - 联通优选-24
+      - 联通优选-25
+      - 联通优选-26
+      - 联通优选-27
+      - 联通优选-28
+      - 联通优选-29
+      - 联通优选-30
+      - 移动优选-01
+      - 移动优选-02
+      - 移动优选-03
+      - 移动优选-04
+      - 移动优选-05
+      - 移动优选-06
+      - 移动优选-07
+      - 移动优选-08
+      - 移动优选-09
+      - 移动优选-10
+      - 移动优选-11
+      - 移动优选-12
+      - 移动优选-13
+      - 移动优选-14
+      - 移动优选-15
+      - 移动优选-16
+      - 移动优选-17
+      - 移动优选-18
+      - 移动优选-19
+      - 移动优选-20
+      - 移动优选-21
+      - 移动优选-22
+      - 移动优选-23
+      - 移动优选-24
+      - 移动优选-25
+      - 移动优选-26
+      - 移动优选-27
+      - 移动优选-28
+      - 移动优选-29
+      - 移动优选-30
+      - 三网通用-01
+      - 三网通用-02
+      - 三网通用-03
+      - 三网通用-04
+      - 三网通用-05
+      - 三网通用-06
+      - 三网通用-07
+      - 三网通用-08
+      - 三网通用-09
+      - 三网通用-10
+      - 三网通用-11
+      - 三网通用-12
+      - 三网通用-13
+      - 三网通用-14
+      - 三网通用-15
+      - 三网通用-16
+      - 三网通用-17
+      - 三网通用-18
+      - 三网通用-19
+      - 三网通用-20
+      - 三网通用-21
+      - 三网通用-22
+      - 三网通用-23
+      - 三网通用-24
+      - 三网通用-25
+  - name: "♻️ 自动选择"
+    type: url-test
+    proxies:
+      - 香港-01
+      - 香港-02
+      - 香港-03
+      - 香港-04
+      - 香港-05
+      - 香港-06
+      - 香港-07
+      - 香港-08
+      - 香港-09
+      - 香港-10
+      - 香港-11
+      - 香港-12
+      - 香港-13
+      - 香港-14
+      - 香港-15
+      - 香港-16
+      - 香港-17
+      - 香港-18
+      - 香港-19
+      - 香港-20
+      - 日本-01
+      - 日本-02
+      - 日本-03
+      - 日本-04
+      - 日本-05
+      - 日本-06
+      - 日本-07
+      - 日本-08
+      - 日本-09
+      - 日本-10
+      - 日本-11
+      - 日本-12
+      - 日本-13
+      - 日本-14
+      - 日本-15
+      - 日本-16
+      - 日本-17
+      - 日本-18
+      - 日本-19
+      - 日本-20
+      - 韩国-01
+      - 韩国-02
+      - 韩国-03
+      - 韩国-04
+      - 韩国-05
+      - 韩国-06
+      - 韩国-07
+      - 韩国-08
+      - 韩国-09
+      - 新加坡-01
+      - 新加坡-02
+      - 新加坡-03
+      - 新加坡-04
+      - 新加坡-05
+      - 新加坡-06
+      - 新加坡-07
+      - 新加坡-08
+      - 新加坡-09
+      - 新加坡-10
+      - 新加坡-11
+      - 新加坡-12
+      - 新加坡-13
+      - 新加坡-14
+      - 新加坡-15
+      - 新加坡-16
+      - 新加坡-17
+      - 新加坡-18
+      - 新加坡-19
+      - 新加坡-20
+      - 台湾-01
+      - 台湾-02
+      - 台湾-03
+      - 台湾-04
+      - 台湾-05
+      - 台湾-06
+      - 台湾-07
+      - 台湾-08
+      - 台湾-09
+      - 其他-01
+      - 其他-02
+      - 美国-01
+      - 美国-02
+      - 美国-03
+      - 美国-04
+      - 美国-05
+      - 美国-06
+      - 美国-07
+      - 美国-08
+      - 美国-09
+      - 美国-10
+      - 美国-11
+      - 美国-12
+      - 美国-13
+      - 美国-14
+      - 美国-15
+      - 美国-16
+      - 美国-17
+      - 美国-18
+      - 美国-19
+      - 美国-20
+      - 电信优选-01
+      - 电信优选-02
+      - 电信优选-03
+      - 电信优选-04
+      - 电信优选-05
+      - 电信优选-06
+      - 电信优选-07
+      - 电信优选-08
+      - 电信优选-09
+      - 电信优选-10
+      - 电信优选-11
+      - 电信优选-12
+      - 电信优选-13
+      - 电信优选-14
+      - 电信优选-15
+      - 电信优选-16
+      - 电信优选-17
+      - 电信优选-18
+      - 电信优选-19
+      - 电信优选-20
+      - 电信优选-21
+      - 电信优选-22
+      - 电信优选-23
+      - 电信优选-24
+      - 电信优选-25
+      - 电信优选-26
+      - 电信优选-27
+      - 电信优选-28
+      - 电信优选-29
+      - 电信优选-30
+      - 联通优选-01
+      - 联通优选-02
+      - 联通优选-03
+      - 联通优选-04
+      - 联通优选-05
+      - 联通优选-06
+      - 联通优选-07
+      - 联通优选-08
+      - 联通优选-09
+      - 联通优选-10
+      - 联通优选-11
+      - 联通优选-12
+      - 联通优选-13
+      - 联通优选-14
+      - 联通优选-15
+      - 联通优选-16
+      - 联通优选-17
+      - 联通优选-18
+      - 联通优选-19
+      - 联通优选-20
+      - 联通优选-21
+      - 联通优选-22
+      - 联通优选-23
+      - 联通优选-24
+      - 联通优选-25
+      - 联通优选-26
+      - 联通优选-27
+      - 联通优选-28
+      - 联通优选-29
+      - 联通优选-30
+      - 移动优选-01
+      - 移动优选-02
+      - 移动优选-03
+      - 移动优选-04
+      - 移动优选-05
+      - 移动优选-06
+      - 移动优选-07
+      - 移动优选-08
+      - 移动优选-09
+      - 移动优选-10
+      - 移动优选-11
+      - 移动优选-12
+      - 移动优选-13
+      - 移动优选-14
+      - 移动优选-15
+      - 移动优选-16
+      - 移动优选-17
+      - 移动优选-18
+      - 移动优选-19
+      - 移动优选-20
+      - 移动优选-21
+      - 移动优选-22
+      - 移动优选-23
+      - 移动优选-24
+      - 移动优选-25
+      - 移动优选-26
+      - 移动优选-27
+      - 移动优选-28
+      - 移动优选-29
+      - 移动优选-30
+      - 三网通用-01
+      - 三网通用-02
+      - 三网通用-03
+      - 三网通用-04
+      - 三网通用-05
+      - 三网通用-06
+      - 三网通用-07
+      - 三网通用-08
+      - 三网通用-09
+      - 三网通用-10
+      - 三网通用-11
+      - 三网通用-12
+      - 三网通用-13
+      - 三网通用-14
+      - 三网通用-15
+      - 三网通用-16
+      - 三网通用-17
+      - 三网通用-18
+      - 三网通用-19
+      - 三网通用-20
+      - 三网通用-21
+      - 三网通用-22
+      - 三网通用-23
+      - 三网通用-24
+      - 三网通用-25
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+
+rules:
+  - GEOSITE,category-ads-all,REJECT
+  - GEOSITE,gfw,🚀 节点选择
+  - GEOSITE,geolocation-!cn,🚀 节点选择
+  - GEOSITE,cn,DIRECT
+  - GEOIP,cn,DIRECT,no-resolve
+  - MATCH,🚀 节点选择
